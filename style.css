@@ -1,0 +1,74 @@
+/* style.css */
+:root {
+  --bg: #fff;
+  --fg: #111;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: ui-rounded, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.app {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+/* ===== ALIVE (cutesy) ===== */
+.alive {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255, 182, 193, 0.35), transparent 45%),
+    radial-gradient(circle at 80% 30%, rgba(173, 216, 230, 0.35), transparent 45%),
+    radial-gradient(circle at 50% 90%, rgba(255, 255, 153, 0.25), transparent 50%),
+    #fff;
+  color: #1b1b1b;
+}
+
+.pet-wrap {
+  text-align: center;
+  user-select: none;
+}
+
+.pet {
+  width: min(320px, 70vw);
+  height: auto;
+  image-rendering: pixelated; /* nice if it's pixel art */
+  filter: drop-shadow(0 14px 18px rgba(0,0,0,0.12));
+  animation: floaty 2.8s ease-in-out infinite;
+}
+
+.pet-name {
+  margin-top: 14px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+@keyframes floaty {
+  0%, 100% { transform: translateY(0) rotate(-0.5deg); }
+  50%      { transform: translateY(-10px) rotate(0.5deg); }
+}
+
+/* ===== DEAD (monochrome) ===== */
+.dead {
+  background: #0b0b0b;
+  color: #e9e9e9;
+}
+
+.grave {
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+.grave .stone {
+  font-size: 56px;
+  margin-bottom: 16px;
+  opacity: 0.9;
+}
+
+.grave .text {
+  font-size: 22px;
+  font-weight: 600;
+  opacity: 0.95;
+}
