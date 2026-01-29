@@ -16,13 +16,13 @@ html, body {
   place-items: center;
 }
 
-/* ===== ALIVE (cutesy) ===== */
+/* ===== ALIVE ===== */
 .alive {
   background:
-    radial-gradient(circle at 20% 20%, rgba(255, 156, 174, 1), transparent 45%),
-    radial-gradient(circle at 80% 30%, rgba(255, 156, 174, 1), transparent 45%),
-    radial-gradient(circle at 50% 90%, rgba(255, 156, 174, 1), transparent 50%),
-    #fff;
+    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.35), transparent 45%),
+    radial-gradient(circle at 80% 30%, rgba(255, 255, 255, 0.35), transparent 45%),
+    radial-gradient(circle at 50% 90%, rgba(255, 255, 255, 0.25), transparent 50%),
+    #ff9cae;
   color: #1b1b1b;
 }
 
