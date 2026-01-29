@@ -16,13 +16,9 @@ html, body {
   place-items: center;
 }
 
-/* ===== ALIVE ===== */
+/* ===== ALIVE (yippie:3) ===== */
 .alive {
-  background:
-    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.35), transparent 45%),
-    radial-gradient(circle at 80% 30%, rgba(255, 255, 255, 0.35), transparent 45%),
-    radial-gradient(circle at 50% 90%, rgba(255, 255, 255, 0.25), transparent 50%),
-    #ff9cae;
+  background: #ff9cae;
   color: #1b1b1b;
 }
 
