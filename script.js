@@ -21,7 +21,7 @@ function renderDead() {
   app.innerHTML = `
     <div class="grave">
       <div class="stone">🪦</div>
-      <div class="text">It's all your fault</div>
+      <div class="text">It's all your fault they died.</div>
     </div>
   `;
 }
